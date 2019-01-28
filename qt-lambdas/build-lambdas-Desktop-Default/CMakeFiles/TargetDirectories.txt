@@ -1,0 +1,4 @@
+/home/fahr/git/lambdas/qt-lambdas/build-lambdas-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/fahr/git/lambdas/qt-lambdas/build-lambdas-Desktop-Default/CMakeFiles/lambdas.dir
+/home/fahr/git/lambdas/qt-lambdas/build-lambdas-Desktop-Default/CMakeFiles/edit_cache.dir
+/home/fahr/git/lambdas/qt-lambdas/build-lambdas-Desktop-Default/CMakeFiles/lambdas_autogen.dir

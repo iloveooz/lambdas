@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fahr/git/lambdas/qt-lambdas/build-lambdas-Desktop-Default/lambdas_autogen/mocs_compilation.cpp
+
+/home/fahr/git/lambdas/qt-lambdas/lambdas/main.cpp
+iostream
+-
+functional
+-
+algorithm
+-
+

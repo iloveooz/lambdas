@@ -6,7 +6,7 @@
 #include <iterator>
 #include <vector>
  
-using std::tr1::function;
+// using std::tr1::function;
  
 int main() {
 	std::vector<int> myVec;
@@ -17,15 +17,15 @@ int main() {
 		return init++;
 	});
  
-	function <void (int)> traceLambda = [] (int _val) -> void {
-			                               cout << _val << " ";
+	std::function <void (int)> traceLambda = [] (int _val) -> void {
+			                               std::cout << _val << " ";
 		                                };
  
 	for_each(myVec.begin(), myVec.end(), traceLambda);
 	std::cout << '\n';
  
-	function <function<int (int)> (int)> lambdaGen =
-		[] (int _val) -> function<int (int)> {
+	std::function <std::function<int (int)> (int)> lambdaGen =
+		[] (int _val) -> std::function<int (int)> {
 			return [_val] (int _n) -> int { return _n + _val; };
 		};
  
